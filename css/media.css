@@ -2,4 +2,11 @@
     #learn-proj{
         flex-direction: column;
     }
+    .sitePrevImg{
+        max-width: 200px;
+    }
+    #background-video{
+        height: 100%;
+        width: 100%;
+    }
 }
