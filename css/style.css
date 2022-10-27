@@ -62,6 +62,9 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+.website-card span{
+  color: aliceblue;
+}
 .sitePrevImg{
   max-width: 500px;
 }
