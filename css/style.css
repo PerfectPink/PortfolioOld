@@ -1,27 +1,67 @@
+.HideScrollBar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.HideScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
 #background-video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
-.info-block{    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10em;
+
+.info-block {
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-h1,h2,h3{
-    margin-top: 50px;
-    color: white;
-    text-align: center;
+.MyPhoto{
+  height: 300px;
+  width: auto;
+  border-radius: 1em;
 }
-.btn-projs{
-    margin-top: 50px;
-    height: 100px;
-    width: 400px;
+h1,
+h2,
+h3 {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+#sec-separator {
+  width: 100%;
+  height: 200px;
+}
+
+.btn-projs {
+  margin-top: 50px;
+  height: 100px;
+  width: 400px;
+}
+
+#learn-proj{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.website-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.sitePrevImg{
+  max-width: 500px;
 }
