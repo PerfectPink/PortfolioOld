@@ -3,10 +3,13 @@
         flex-direction: column;
     }
     .sitePrevImg{
-        max-width: 200px;
+        width: 250px;
     }
     #background-video{
         height: 100%;
         width: 100%;
+    }
+    .website-card{
+        padding: 0px 15px 0px 15px;
     }
 }
