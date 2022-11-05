@@ -11,45 +11,54 @@
 </head>
 
 <body class="HideScrollBar">
-  <section id="sec-intro">
-    <video autoplay muted loop id="background-video" src="img/spaceBack.mp4"></video>
-    <div class="info-block">
-      <img src="img/my-photo.jpg" alt="" class="MyPhoto">
-      <h1 class="fontYK-bold">Привет, я Толя</h1>
-      <h2 class="fontYK-bold">Изучаю веб-программирование :)</h2>
-      <h3 class="fontYK-bold">Мои Работы</h3>
-      <a href="#learn-proj"><img src="img/arrowdown.gif" alt="" /></a>
+  <video autoplay muted loop id="background-video" src="img/spaceBack.mp4"></video>
+  <div class="wrapper">
+    <section id="sec-intro">
+      
+      <div class="info-block">
+        <img src="img/my-photo.jpg" alt="" class="MyPhoto">
+        <h1 class="fontYK-bold">Привет, я Толя</h1>
+        <h2 class="fontYK-bold">Изучаю веб-программирование :)</h2>
+        <h3 class="fontYK-bold">Мои Работы</h3>
+        <a href="#learn-proj"><img src="img/arrowdown.gif" alt="" /></a>
+      </div>
+    </section>
+    <div id="sec-separator">
+      <h4 class="fontYK-bold">Учебные проекты</h4>
     </div>
-  </section>
-  <div id="sec-separator">
-    <h4 class="fontYK-bold">Учебные проекты</h4>
+    <section id="learn-proj">
+      <div class="website-card">
+        <img src="img/webPreview/wallpapersSite.png" alt="" class="sitePrevImg">
+        <a href="https://perfectpink.github.io/NordWallpapers/" class="fontYK-bold" target="_blank">Wallpapers</a>
+        <p class="fontYK-med">Проект-сайт с коллекцией обоев для рабочего стола</p>
+      </div>
+      <div class="website-card">
+        <img src="img/webPreview/TMNTsite.png" alt="" class="sitePrevImg">
+        <a href="https://perfectpink.github.io/NordTMNT/" class="fontYK-bold" target="_blank">TMNT</a>
+        <p class="fontYK-med">Сайт представление героев мультфильма Черепашки ниндзя</p>
+      </div>
+      <div class="website-card">
+        <img src="img/webPreview/COFFEE PROJECT.png" alt="" class="sitePrevImg">
+        <a href="https://perfectpink.github.io/NordCoffe/" class="fontYK-bold" target="_blank">Coffee</a>
+        <p class="fontYK-med">Сайт с небольшой информацией про кофе</p>
+      </div>
+      <div class="website-card">
+        <img src="img/webPreview/RedSquare.png" alt="" class="sitePrevImg">
+        <a href="https://perfectpink.github.io/RedSquare/" class="fontYK-bold" target="_blank">Red Square</a>
+        <p class="fontYK-med">Простая демонстрация начальных навыков JS</p>
+      </div>
+    </section>
+    <footer>
+      <div hidden>
+        <p>Отправить мне сообщение</p>
+        <form action="https://api.telegram.org/bot624538296:AAEuhMPV0_5JhPjZCwW6ynumkkhWtVeaeF0/">
+          <input type="number" name="chat_id">
+          <input type="text" name="message">
+          <input type="submit">
+        </form>
+      </div>
+      </footer>
   </div>
-  <section id="learn-proj">
-    <div class="website-card">
-      <img src="img/webPreview/wallpapersSite.png" alt="" class="sitePrevImg">
-      <a href="https://perfectpink.github.io/NordWallpapers/" class="fontYK-bold" target="_blank">Wallpapers</a>
-      <p class="fontYK-med">Проект-сайт с коллекцией обоев для рабочего стола</p>
-    </div>
-    <div class="website-card">
-      <img src="img/webPreview/TMNTsite.png" alt="" class="sitePrevImg">
-      <a href="https://perfectpink.github.io/NordTMNT/" class="fontYK-bold" target="_blank">TMNT</a>
-      <p class="fontYK-med">Сайт представление героев мультфильма Черепашки ниндзя</p>
-    </div>
-    <div class="website-card">
-      <img src="img/webPreview/COFFEE PROJECT.png" alt="" class="sitePrevImg">
-      <a href="https://perfectpink.github.io/NordCoffe/" class="fontYK-bold" target="_blank">Coffee</a>
-      <p class="fontYK-med">Сайт с небольшой информацией про кофе</p>
-    </div>
-  </section>
-  <footer>
-    <div hidden>
-      <p>Отправить мне сообщение</p>
-      <form action="https://api.telegram.org/bot624538296:AAEuhMPV0_5JhPjZCwW6ynumkkhWtVeaeF0/">
-        <input type="number" name="chat_id">
-        <input type="text" name="message">
-        <input type="submit">
-      </form>
-    </div>
-    </footer>
+
   </body>
 </html>

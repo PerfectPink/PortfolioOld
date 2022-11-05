@@ -33,7 +33,7 @@ footer{
 #background-video {
   width: 100vw;
   height: 100vh;
-  background-position: center;
+  /* background-position: center; */
   object-fit: cover;
   position: fixed;
   left: 0;
